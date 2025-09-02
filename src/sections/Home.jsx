@@ -4,20 +4,20 @@ const Home = () => {
       id="home"
       className="h-screen flex flex-col md:flex-row overflow-hidden"
     >
-      {/* Left Side Image */}
+      
       <div className="w-full md:w-1/2 relative flex items-center justify-center">
         <div className="absolute inset-0 bg-black/30"></div>
         <img
-          src="/pic.jpg" // ✅ image from public folder
+          src="/pic.jpg" 
           alt="Family"
           className="w-full h-full object-cover"
         />
       </div>
 
-      {/* Right Side with Image + Text Overlay */}
+      {}
       <div className="w-full md:w-1/2 relative flex items-center justify-center">
         <img
-          src="/pic2.jpg" // ✅ second image from public folder
+          src="/pic2.jpg" 
           alt="Clinic"
           className="w-full h-full object-cover"
         />

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react"; // for mobile icons
+import { Menu, X } from "lucide-react"; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,13 +14,13 @@ const Navbar = () => {
 
   const scrollToSection = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-    setIsOpen(false); // close mobile menu after click
+    setIsOpen(false); 
   };
 
   return (
     <nav className="fixed top-0 w-full bg-white text-gray-900 shadow-md z-50">
       <div className="container mx-auto flex justify-between items-center px-6 py-4">
-        {/* Logo */}
+        {}
         <h1
           className="text-2xl font-extrabold text-[#004AAD] cursor-pointer"
           onClick={() => scrollToSection("home")}
@@ -28,7 +28,7 @@ const Navbar = () => {
           DentalCare
         </h1>
 
-        {/* Desktop Menu */}
+        {}
         <ul className="hidden md:flex gap-8 text-lg font-semibold">
           {navItems.map((item) => (
             <li
@@ -41,7 +41,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Mobile Menu Button */}
+        {}
         <div className="md:hidden">
           {isOpen ? (
             <X
@@ -59,7 +59,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Dropdown */}
+      {}
       {isOpen && (
         <div className="md:hidden bg-white shadow-md border-t border-gray-200">
           <ul className="flex flex-col items-center gap-6 py-6 text-lg font-semibold">

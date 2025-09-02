@@ -4,7 +4,7 @@ const Appointment = () => {
       id="appointment"
       className="min-h-screen bg-blue-50 px-6 py-16 flex flex-col items-center"
     >
-      {/* Heading */}
+      {}
       <div className="max-w-3xl text-center mb-12">
         <h2 className="text-4xl font-bold text-blue-800 mb-4">
           Book an Appointment
@@ -15,9 +15,9 @@ const Appointment = () => {
         </p>
       </div>
 
-      {/* Grid Layout: Image + Form */}
+      {}
       <div className="grid md:grid-cols-2 gap-10 items-center max-w-6xl w-full">
-        {/* Left Side Image */}
+        {}
         <div className="w-full h-96 rounded-xl overflow-hidden shadow-lg">
           <img
             src="/pic4.jpg"
@@ -26,7 +26,7 @@ const Appointment = () => {
           />
         </div>
 
-        {/* Appointment Form */}
+        {}
         <form className="bg-white p-8 rounded-xl shadow-lg w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <input

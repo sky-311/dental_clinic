@@ -32,7 +32,7 @@ const Services = () => {
       id="services"
       className="min-h-screen flex flex-col items-center bg-gradient-to-b from-blue-50 to-white px-6 py-20"
     >
-      {/* Section Heading */}
+      {}
       <div className="max-w-2xl text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-extrabold text-blue-800 mb-4 tracking-tight">
           Our Services
@@ -43,7 +43,7 @@ const Services = () => {
         </p>
       </div>
 
-      {/* Staggered Layout */}
+      {}
       <div className="flex flex-col space-y-16 w-full max-w-6xl">
         {services.map((service, idx) => (
           <div
@@ -52,7 +52,7 @@ const Services = () => {
               idx % 2 === 1 ? "md:flex-row-reverse" : ""
             }`}
           >
-            {/* Image */}
+            {}
             <div className="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-lg">
               <img
                 src={service.img}
@@ -61,7 +61,7 @@ const Services = () => {
               />
             </div>
 
-            {/* Text Content */}
+            {}
             <div className="w-full md:w-1/2 text-center md:text-left">
               <h3 className="text-2xl font-semibold text-blue-700 mb-4">
                 {service.title}

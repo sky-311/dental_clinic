@@ -4,7 +4,7 @@ const About = () => {
       id="about"
       className="min-h-screen bg-gray-50 px-6 py-20 flex flex-col items-center"
     >
-      {/* Intro Section */}
+      {}
       <div className="max-w-4xl text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-extrabold text-blue-800 mb-6 tracking-tight">
           About Us
@@ -19,9 +19,9 @@ const About = () => {
         </p>
       </div>
 
-      {/* Doctor Section */}
+      {}
       <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mb-20">
-        {/* Image */}
+        {}
         <div className="w-full h-[26rem] rounded-2xl overflow-hidden shadow-lg">
           <img
             src="/pic3.jpg"
@@ -30,7 +30,7 @@ const About = () => {
           />
         </div>
 
-        {/* Text */}
+        {}
         <div>
           <h3 className="text-3xl font-semibold text-blue-700 mb-4">
             Meet <span className="text-gray-900">Dr. Sayena Mashkouri</span>
@@ -50,9 +50,9 @@ const About = () => {
         </div>
       </div>
 
-      {/* Why Choose Us Section */}
+      {}
       <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl">
-        {/* Text */}
+        {}
         <div className="order-2 md:order-1">
           <h3 className="text-3xl font-semibold text-blue-700 mb-6">
             Why Choose Us?
@@ -77,7 +77,7 @@ const About = () => {
           </ul>
         </div>
 
-        {/* Image */}
+        {}
         <div className="w-full h-[26rem] rounded-2xl overflow-hidden shadow-lg order-1 md:order-2">
           <img
             src="/pic4.jpg"
